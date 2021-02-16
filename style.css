@@ -1,0 +1,72 @@
+h1{
+    color: "#101074";
+   margin-left: 500px;
+}
+.header *{
+    border:solid;
+}
+
+.header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: blueviolet;
+}
+
+.games{
+    background-color:rgb(18, 140, 161);
+    display : flex;
+    justify-content: space-evenly;
+}
+
+.social {
+    background-color: darkcyan;
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+text-align: center;
+}
+body{
+    background-color: rgb(45, 230, 144);;
+}
+
+a:link{
+    color:brown
+}
+
+a:visited{
+    color:darkgreen
+}
+
+.item{
+    position:relative;
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.5
+}
+
+.menu{
+    margin-right: 50px;
+}
+
+.menu a{
+    margin-left:30px
+}
+
